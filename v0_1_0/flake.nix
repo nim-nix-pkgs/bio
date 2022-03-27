@@ -11,6 +11,7 @@
   inputs.src-bio-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-bio-v0_1_0.owner = "xzeshen";
   inputs.src-bio-v0_1_0.repo  = "bio";
+  inputs.src-bio-v0_1_0.dir   = "";
   inputs.src-bio-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
