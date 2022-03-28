@@ -11,7 +11,6 @@
   inputs.src-bio-master.ref   = "refs/heads/master";
   inputs.src-bio-master.owner = "xzeshen";
   inputs.src-bio-master.repo  = "bio";
-  inputs.src-bio-master.dir   = "";
   inputs.src-bio-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
